@@ -1,0 +1,177 @@
+/*.....Head Nav....*/
+#headnav h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+#navbarNav{
+    font-family: Jazz LET, fantasy;
+    margin-left: 28%;
+    font-size: 20px;
+}
+#headnav{
+    /*.....background-color: rgb(87, 167, 112);....*/
+    background-color: rgb(53, 155, 86);
+    padding: 5px;
+}
+
+
+
+/*.....main page....*/
+
+.carousel-caption #icon{
+   width: 250px;
+    padding: 10px;
+}
+h1{
+    font-family: Blippo, fantasy;
+}
+
+.banner {
+    height: 75vh;
+}
+
+.banner_slide{
+    height: 400px;
+}
+
+details{
+background-color: rgb(182, 133, 174);
+padding: 5px;
+}
+
+/*.....Modal....*/
+.modal-content{
+    background:rgb(182, 202, 201);
+}
+
+/*.....registration modal....*/
+.form-outline,.form-outline input,.btn{
+    font-weight: bold;
+}
+
+/*.....Login/aptEdit_card....*/
+#login_card h3,#aptEdit_card h3{
+    font-family: Jazz LET, fantasy;
+    
+}
+#login_card,#aptEdit_card{
+    margin-bottom:0;
+    background-color: rgb(178, 204, 214);
+}
+#login_card{
+    max-width: 500px;
+    margin-top: 150px;
+}
+#aptEdit_card{
+    max-width: 800px;
+
+}
+
+/*.....land/Apt post/edit modal....*/
+#sqft,#price{
+    width: max-content;
+}
+.pay{
+    color: black;
+}
+
+
+/*.....Seller View page/ sidenav....*/
+.offcanvas-body li{
+    border-bottom: 1px solid black;
+}
+.offcanvas{
+width: fit-content;
+}
+.side-navbar{
+    background-color: rgb(178, 206, 206);
+    float: left;
+}
+.side-navbar a{
+    color: rgb(0, 0, 0);
+}
+.side-navbar,#productcard{
+    margin-top: 5px;
+}
+#productcard img{
+    height: 200px;
+}
+
+
+/*.....Buyer View page....*/
+#sortnavbar{
+    padding: 5px;
+    background-color: rgb(178, 206, 206);
+    width: 250px;
+}
+
+/*.....Footer....*/
+.footer {
+margin: 0;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(92, 85, 74);
+    height: -100vh;
+  }
+
+
+  /*--Admin Dashboard--*/
+  #admin_dashboard_card{
+       margin-top:10px;
+  }
+
+
+   /*--Cookie--*/
+.cookie-consent-modal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    align-items: flex-end;
+}
+.cookie-consent-modal.active{
+    display: flex;
+}
+.content{
+    background-color: #fff;
+    padding: 5vw 3vw;
+    border-radius: 10px 10px 0 0;
+}
+
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2em;
+}
+
+.btn.accept{
+    background-color: rgb(0, 185, 124);
+    color: #fff;
+}
+
+/*--map--*/
+.map-card{
+    width:50%;
+    height:min-content;
+}
+.map-card img{
+    height: 300px;
+}
+.map-card {
+    width: auto;
+}
+
+/* manage seller  */
+  .link {
+        text-decoration: none;
+        text-align:center;
+  }
+
+  /* Invoice */
+  .invoice_card{
+      width:500px;
+      margin-top: 100px;
+  }
